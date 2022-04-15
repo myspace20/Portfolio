@@ -1,0 +1,86 @@
+$font: 'Quicksand', serif;
+
+body{
+    box-sizing: border-box;
+    font-family: $font;
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: #607d8b;
+    }
+    .links{
+        display: flex;
+        margin-left: auto;
+    }
+    li{
+        margin: 0px 15px;
+    }
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:gray ;
+    margin: 15px 0px;
+}
+
+
+
+@mixin h2 {
+    font-size: 25px;
+    padding: 15px 0px;
+    font-weight: 700;
+}
+
+.leading{
+    padding:30px 0px;
+    h2{
+      @include h2()  
+    }
+}
+
+h2{
+    @include h2()
+}
+
+.skills{
+
+    h2{
+        @include h2()
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        padding: 30px 0px;
+    }
+    li{
+        font-size: 10px;
+    }
+}
+
+.quiz{
+    background-color: #F1C40F;
+    padding: 20px;
+    border-radius: 20px;
+    div{
+        display:flex;
+        justify-content: space-around;
+    }
+    a{
+        color: black;
+    }
+}
+

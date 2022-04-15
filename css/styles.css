@@ -1,0 +1,88 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", serif;
+  font-size: 18px;
+  color: grey;
+  font-weight: 600;
+  padding: 10px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0px 20px 0px;
+}
+nav h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #607d8b;
+}
+nav .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+nav li {
+  margin: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: gray;
+  margin: 15px 0px;
+}
+
+.leading {
+  padding: 30px 0px;
+}
+.leading h2 {
+  font-size: 25px;
+  padding: 15px 0px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 15px 0px;
+  font-weight: 700;
+}
+
+.skills h2 {
+  font-size: 25px;
+  padding: 15px 0px;
+  font-weight: 700;
+}
+.skills ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 30px 0px;
+}
+.skills li {
+  font-size: 10px;
+}
+
+.quiz {
+  background-color: #F1C40F;
+  padding: 20px;
+  border-radius: 20px;
+}
+.quiz div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.quiz a {
+  color: black;
+}
