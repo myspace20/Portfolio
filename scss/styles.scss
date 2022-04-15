@@ -71,16 +71,20 @@ h2{
     }
 }
 
-.quiz{
-    background-color: #F1C40F;
+@mixin projects {
     padding: 20px;
     border-radius: 20px;
+    color: white;
     div{
         display:flex;
         justify-content: space-around;
     }
-    a{
-        color: black;
-    }
+}
+
+.quiz{
+    @include projects();
+    background-color: #F1C40F;
+    
+    
 }
 

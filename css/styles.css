@@ -72,9 +72,10 @@ h2 {
 }
 
 .quiz {
-  background-color: #F1C40F;
   padding: 20px;
   border-radius: 20px;
+  color: white;
+  background-color: #F1C40F;
 }
 .quiz div {
   display: -webkit-box;
@@ -82,7 +83,4 @@ h2 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-.quiz a {
-  color: black;
 }
