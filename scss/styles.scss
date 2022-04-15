@@ -79,12 +79,29 @@ h2{
         display:flex;
         justify-content: space-around;
     }
+    margin-bottom: 20px
 }
 
-.quiz{
+.first{
     @include projects();
-    background-color: #F1C40F;
-    
-    
+    background-color: #F1C40F;  
+}
+
+.second{
+    @include projects();
+    background-color: #19191A;  
+
+    a{
+        color: white;
+    }
+}
+
+.third{
+    @include projects();
+    background-color: #607D8B;  
+
+    a{
+        color: yellow;
+    }
 }
 

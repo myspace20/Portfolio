@@ -71,16 +71,53 @@ h2 {
   font-size: 10px;
 }
 
-.quiz {
+.first {
   padding: 20px;
   border-radius: 20px;
   color: white;
+  margin-bottom: 20px;
   background-color: #F1C40F;
 }
-.quiz div {
+.first div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.second {
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #19191A;
+}
+.second div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.second a {
+  color: white;
+}
+
+.third {
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #607D8B;
+}
+.third div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.third a {
+  color: yellow;
 }
