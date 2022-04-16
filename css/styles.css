@@ -121,3 +121,18 @@ h2 {
 .third a {
   color: yellow;
 }
+
+.button {
+  text-align: center;
+}
+.button button {
+  padding: 5px 15px;
+  outline: none;
+  border: 1px solid #F1C40F;
+  border-radius: 20px;
+  background-color: #F1C40F;
+}
+.button a {
+  color: white;
+  font-size: 20px;
+}
