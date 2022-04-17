@@ -62,8 +62,8 @@ h2 {
 .skills ul {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: repeat(5, 1fr);
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(7, 1fr);
   gap: 20px;
   padding: 30px 0px;
 }
@@ -167,4 +167,29 @@ form button {
   padding: 15px 0px;
   margin: 10px auto;
   display: block;
+}
+
+@media screen and (min-width: 500px) {
+  .project-items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .leading {
+    width: 70%;
+  }
+
+  form {
+    width: 50%;
+  }
+
+  .skills ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[7];
+    grid-template-columns: repeat(7, 1fr);
+  }
 }

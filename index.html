@@ -26,7 +26,7 @@
 
     <section class="skills">
         <h2>Skills</h2>
-        <ul>
+        <ul class="icons">
               <li>
                 <svg viewBox="0 0 128 128">
                     <path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"></path><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"></path><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"></path><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
@@ -62,52 +62,54 @@
 
     <section class="projects">
         <h2>Projects</h2>
-        <div class="first">
-            <h2>My Quiz</h2>
-            <p>
-                My Quiz App is an interactive web app that enables the end-user to test their knowledge base using general
-                knowledge questions obtained from the opentrivia API end point. A score is displayed after every submission.
-            </p>
-            <div>
-                <a href="https://myspace20.github.io/My-Quiz-App/" target="_blank">Live Site</a>
-                <a href="https://github.com/myspace20/My-Quiz-App" target="_blank">Github Repository</a>
-            </div>   
-        </div>
-        <div class="second">
-            <h2>Ip Address Tracker</h2>
-            <p>
-                IP Address Tracker is a web app that obtains a user's IP using API and allows them to search for any other IP
-                addresses. The geolocation of the IP address is displayed using Leaflet. Other information such as Location, Time
-                Zone and ISP are displayed as well.
-            </p>
-            <div>
-                <a href="https://myspace20.github.io/ip-address-tracker-master/" target="_blank">Live Site</a>
-                <a href="https://github.com/myspace20/ip-address-tracker-master" target="_blank">Github Repository</a>
-            </div> 
-        </div>
-        <div class="third">
-            <h2>My Todo</h2>
-            <p>This is a simple task manager that allows the user to add, search and delete todos.</p>
-            <div>
-                <a href="https://myspace20.github.io/todoapp/">Live Site</a>
-                <a href="https://github.com/myspace20/todoapp">Github Repository</a>
-            </div>   
-        </div>
-        <div class="first">
-            <h2>Tip Calculator</h2>
-            <p>This is a simple task manager that allows the user to add, search and delete todos.</p>
-            <div>
-                <a href=" https://myspace20.github.io/tip-calculator-app-main/">Live Site</a>
-                <a href="https://github.com/myspace20/tip-calculator-app-main">Github Repository</a>
-            </div>   
-        </div>
-        <div class="second">
-            <h2>Developer Portfolio</h2>
-            <p>This landing page is a challenge from codewell</p>
-            <div>
-                <a href="https://portfolio-codewell20.netlify.app/">Live Site</a>
-                <a href="https://github.com/myspace20/Developer-Portfolio-Starter-Files">Github Repository</a>
-            </div>   
+        <div class="project-items">
+            <div class="first">
+                <h2>My Quiz</h2>
+                <p>
+                    My Quiz App is an interactive web app that enables the end-user to test their knowledge base using general
+                    knowledge questions obtained from the opentrivia API end point. A score is displayed after every submission.
+                </p>
+                <div>
+                    <a href="https://myspace20.github.io/My-Quiz-App/" target="_blank">Live Site</a>
+                    <a href="https://github.com/myspace20/My-Quiz-App" target="_blank">Github Repository</a>
+                </div>   
+            </div>
+            <div class="second">
+                <h2>Ip Address Tracker</h2>
+                <p>
+                    IP Address Tracker is a web app that obtains a user's IP using API and allows them to search for any other IP
+                    addresses. The geolocation of the IP address is displayed using Leaflet. Other information such as Location, Time
+                    Zone and ISP are displayed as well.
+                </p>
+                <div>
+                    <a href="https://myspace20.github.io/ip-address-tracker-master/" target="_blank">Live Site</a>
+                    <a href="https://github.com/myspace20/ip-address-tracker-master" target="_blank">Github Repository</a>
+                </div> 
+            </div>
+            <div class="third">
+                <h2>My Todo</h2>
+                <p>This is a simple task manager that allows the user to add, search and delete todos.</p>
+                <div>
+                    <a href="https://myspace20.github.io/todoapp/">Live Site</a>
+                    <a href="https://github.com/myspace20/todoapp">Github Repository</a>
+                </div>   
+            </div>
+            <div class="first">
+                <h2>Tip Calculator</h2>
+                <p>This is a simple task manager that allows the user to add, search and delete todos.</p>
+                <div>
+                    <a href=" https://myspace20.github.io/tip-calculator-app-main/">Live Site</a>
+                    <a href="https://github.com/myspace20/tip-calculator-app-main">Github Repository</a>
+                </div>   
+            </div>
+            <div class="second">
+                <h2>Developer Portfolio</h2>
+                <p>This landing page is a challenge from codewell</p>
+                <div>
+                    <a href="https://portfolio-codewell20.netlify.app/">Live Site</a>
+                    <a href="https://github.com/myspace20/Developer-Portfolio-Starter-Files">Github Repository</a>
+                </div>   
+            </div>
         </div>
     </section>
     <div class="button">
@@ -123,7 +125,7 @@
             <input type="email" name="email" id="email">
             <br><br>
             <label for="message">Message</label><br><br>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <textarea name="message" id="message"></textarea>
             <button type="submit">Submit</button>
         </form>
         <a href="tel:+233557481551">Phone</a>
@@ -131,5 +133,6 @@
         <a href="">LinkedIn</a>
         <a href="">Github</a>
     </section>
+    <script src="app.js"></script>
 </body>
 </html>
